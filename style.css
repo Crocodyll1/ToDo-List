@@ -12,5 +12,31 @@
     column-gap: 10px;
     row-gap: 10px;
     margin-top: 10px;
+    align-items: center ;
 }
 
+#todo-input, #todo-date {
+    padding: 5px;
+    font-size: 16px;
+    text-overflow: inherit;
+}
+
+.btn-todo{
+    padding : 15px;
+    background-color: rgb(29, 208, 70);
+    color: snow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+.btn-delete{
+    padding: 15px;
+    background-color: rgb(238, 9, 63);
+    border: none;
+    color: snow;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
